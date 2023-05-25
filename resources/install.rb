@@ -22,8 +22,8 @@
 unified_mode true
 
 property :version,          String, required: false
-property :repo,             String, default:  'https://apt.grafana.com'
-property :key,              String, default:  'https://apt.grafana.com/gpg.key'
+property :repo,             String, default:  'https://packages.grafana.com/oss'
+property :key,              String, default:  'https://packages.grafana.com/gpg.key'
 property :rpm_key,          String, default:  'https://grafanarel.s3.amazonaws.com/RPM-GPG-KEY-grafana'
 property :deb_distribution, String, default:  'stable'
 property :deb_components,   Array,  default:  ['main']
